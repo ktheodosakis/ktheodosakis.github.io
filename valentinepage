@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Will you be my Valentine?</h1>
+        <div id="response-buttons">
+            <button id="yes" onclick="answer('yes')">Yes</button>
+            <button id="no" onclick="answer('no')">No</button>
+        </div>
+        <div id="gif-container" style="display: none;">
+            <img id="cat-gif" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cat Gif">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
